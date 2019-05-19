@@ -2,4 +2,4 @@
 
 print('Hello World!')
 
-print('Goodbye!')
+print('Goodbye My Friend!')

@@ -8,6 +8,8 @@ phases:
       - pip install pylint
   pre_build:
     commands:
+      - echo Build started on `date`
+      - echo running pylint against code...
       - pylint hello_world.py
 artifacts:
   files:

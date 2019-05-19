@@ -1,4 +1,4 @@
-# sample python script that prints out "Hello World!"
+# sample python script that prints out "Hello World!" and "Goodbye!"
 
 print('Hello World!')
 

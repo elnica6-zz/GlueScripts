@@ -5,11 +5,12 @@ phases:
     runtime-version:
       python: 3.7
     commands:
+      - echo Installing PyLint...
       - pip install pylint
   pre_build:
     commands:
       - echo Build started on `date`
-      - echo running pylint against code...
+      - echo Running pylint against code...
       - pylint hello_world.py
 artifacts:
   files:

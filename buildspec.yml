@@ -19,5 +19,5 @@ phases:
       - aws s3 sync glue_code/ s3://$BUILD_OUTPUT_BUCKET/glue_code --sse
 artifacts:
   files:
-    - hello_world.py
+    - glue_code/hello_world.py
   discard-paths: yes

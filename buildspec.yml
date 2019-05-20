@@ -16,7 +16,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo syncing code to S3...
-      - aws s3 sync hello_world.py s3://$BUILD_OUTPUT_BUCKET/glue_code --sse
+      - aws s3 sync . s3://$BUILD_OUTPUT_BUCKET/glue_code --sse
 artifacts:
   files:
     - hello_world.py
